@@ -22,18 +22,6 @@
 
 ---
 
-## Resultat reel
-
-> Le dashboard ci-dessous a ete genere automatiquement par Claude Code a partir de donnees scrapees et enrichies.
-
-[Voir le dashboard complet (HTML)](exemples/decideurs_agences_seo_luxembourg.html)
-
-![Dashboard Preview](https://img.shields.io/badge/Apercu-Dark_Premium_Dashboard-1a1a2e?style=for-the-badge)
-
-> **176 agences SEO au Luxembourg** scrapees depuis Google Maps, enrichies avec les decideurs (CEO, fondateurs, directeurs), et formatees dans un dashboard HTML interactif — le tout en langage naturel.
-
----
-
 ## Video
 
 `[LIEN VIDEO A VENIR]`
@@ -74,8 +62,6 @@ Rendez-vous sur [apify.com](https://apify.com/) et creez un compte gratuit (le f
 
 Copiez le contenu de [`config/claude-mcp-config.json`](config/claude-mcp-config.json) dans votre fichier `~/.claude.json` (section `mcpServers`).
 
-> Guide detaille : [guides/01-installation.md](guides/01-installation.md)
-
 ---
 
 ## Sources Supportees
@@ -95,22 +81,6 @@ Copiez le contenu de [`config/claude-mcp-config.json`](config/claude-mcp-config.
 3. [**LinkedIn**](prompts/03-linkedin.md) — Scraper des profils et pages entreprises
 4. [**Enrichissement Decideurs**](prompts/04-enrichissement-decideurs.md) — Identifier les decideurs a partir d'un CSV brut
 5. [**Generation Dashboard**](prompts/05-generation-dashboard.md) — Creer un dashboard HTML interactif
-
----
-
-## Exemples Reels
-
-| Fichier | Description |
-|---------|-------------|
-| [`agences_seo_luxembourg.csv`](exemples/agences_seo_luxembourg.csv) | 176 agences SEO au Luxembourg — donnees brutes scrapees depuis Google Maps |
-| [`decideurs_agences_seo_luxembourg.html`](exemples/decideurs_agences_seo_luxembourg.html) | Dashboard interactif des decideurs — genere automatiquement par Claude Code |
-
----
-
-## Guides
-
-- [Installation complete](guides/01-installation.md) — Setup Claude Code + Apify de zero
-- [Premier scrape](guides/02-premier-scrape.md) — Tutoriel pas-a-pas du workflow complet
 
 ---
 
