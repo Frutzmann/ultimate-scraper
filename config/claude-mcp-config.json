@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "apify": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/apify-mcp-server@latest"],
+      "env": {
+        "APIFY_API_TOKEN": "VOTRE_TOKEN_API_ICI"
+      }
+    }
+  }
+}
